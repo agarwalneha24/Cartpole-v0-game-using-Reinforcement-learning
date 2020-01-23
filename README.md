@@ -29,7 +29,7 @@ raw probabilities behind the environment’s last state change). However, offici
 for learning.
 
 WORKING:
-This is just an implementation of the classic “agent-environment loop”. Eachtimestep, the agent chooses an action, and the environment 
+This is just an implementation of the classic “agent-environment loop”. In each step, the agent chooses an action, and the environment 
 returns an observation and a reward.
  
 The process gets started by calling reset(), which returns an initial observation Training an agent to play Cartpole game using 
